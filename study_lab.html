@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .nav{
+            height:80px;
+            box-shadow:3px 3px 3px 3px rgb(229,229,229);
+            display: flex;
+            padding:0px 10%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav>div{
+            display: flex;
+        }
+        .nav>div:nth-child(1){
+            background-color: blueviolet;
+            height:100%;
+            align-items: center;
+            color: white;
+            padding:0px 15px;
+        }
+        .nav>div:nth-child(2){
+            justify-content: space-between;
+            width:45%;
+        }
+        .nav>div:nth-child(2)>h2:hover{
+            cursor:pointer;
+            color: rgb(143, 130, 130)
+        }
+
+        .main{
+            display: flex;
+            width:90%;
+            margin:50px auto;
+            justify-content: space-between;
+        }
+        .main>div{
+            width: 45%;
+            justify-content: space-between;
+        }
+        .main>div:nth-child(1)>h4{
+            color: #1e88e5;
+            margin-bottom:10px;
+        }
+        .main>div:nth-child(1)>h1{
+            font-size:45px;
+            margin-bottom:30x;
+        }
+        .main>div:nth-child(1)>p{
+            font-size:18px;
+            line-height:25px;
+            margin-top: 10px;
+        }
+        .main>div:nth-child(2){
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .main>div:nth-child(2)>div{
+            width:40%;
+            box-shadow: rgba(100, 100,111, 0.2)0px 7px 29px 0px;
+            margin-top: 20px;
+            padding:5% 3% 10% 5%;
+        }
+        .main>div:nth-child(2)>div>img{
+            width:80px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+        }
+        p{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <h1>Study Lab</h1>
+        </div>
+        <div>
+            <h2>Home</h2>
+            <h2>About</h2>
+            <h2>Course</h2>
+            <h2>Institute</h2>
+            <h2>Blog</h2>
+            <h2>Contact</h2>
+        </div>
+    </div>
+    <div class="main">
+        <div>
+        <h4>WLECOME TO STUDYLAB</h4>
+        <h1>We Are Studylab An Online Learning Center</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab esse magni delectus, minus quibusdam consequatur expedita iure quis id veritatis, blanditiis, et ut! Dolorum, architecto illum iure repudiandae corrupti, quisquam impedit rem accusamus itaque ipsam eaque. Amet, molestiae nihil!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut aut illo neque accusamus hic! Laborum aperiam aliquid iste nihil consequatur vitae magni debitis, nisi necessitatibus ad ipsa error, in, quidem saepe asperiores laboriosam perferendis. Veniam delectus deleniti nostrum repellendus labore!</p>
+        </div>
+        <div>
+            <div><img src="https://wallpapercave.com/wp/Ks2KVle.jpg" alt="">
+            <h2>TOP QUALITY CONTENT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, magnam?</p></div>
+            <div><img src="https://wallpapercave.com/wp/Ks2KVle.jpg" alt="">
+            <h2>TOP QUALITY CONTENT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, magnam?</p></div>
+            <div><img src="https://wallpapercave.com/wp/Ks2KVle.jpg" alt="">
+            <h2>TOP QUALITY CONTENT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, magnam?</p></div>
+            <div><img src="https://wallpapercave.com/wp/Ks2KVle.jpg" alt="">
+            <h2>TOP QUALITY CONTENT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, magnam?</p></div>
+        </div>
+    </div>
+    
+</body>
+</html>
